@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Resources/UnityPlayerAccountSettings.asset.meta
+guid: a749136b82a2e41f88e27eb063b0f2cd
+========
+guid: 4702987cd52d14b4c8c5530706e3c833
+>>>>>>>> mp-pre-merge:Assets/Plugins/VoxelBusters/CoreLibrary/Plugins/iOS/NativePluginsBaseGroup.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

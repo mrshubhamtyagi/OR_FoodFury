@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Missile/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts.meta
+fileFormatVersion: 2
+guid: 69df2e28b58ace74ca0f8e7a4b460020
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+========
+fileFormatVersion: 2
+guid: 55177c772f05d49c8bca6f5f5ecf8f9e
+folderAsset: yes
+timeCreated: 1547647250
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>>> mp-pre-merge:Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scripts.meta
+=======
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts.meta
+guid: 90cebaa0afdacee48a8b5ea661f8a1a7
+========
+guid: 69df2e28b58ace74ca0f8e7a4b460020
+>>>>>>>> mp-pre-merge:Assets/Missile/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> mp-pre-merge

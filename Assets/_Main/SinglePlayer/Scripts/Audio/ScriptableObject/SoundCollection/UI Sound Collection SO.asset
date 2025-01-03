@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe3647e288d7764b870473cbce4fadf, type: 3}
+  m_Name: UI Sound Collection SO
+  m_EditorClassIdentifier: 
+  ButtonClickSoundSO: {fileID: 11400000, guid: 28a56e730cb8ff24c962fff8f7fc88bc, type: 2}
+  UpgradeSoundSO: {fileID: 11400000, guid: 11971585c2e5c274ab41acd2474b95cf, type: 2}
+  WarningSoundSO: {fileID: 11400000, guid: 07e9865fc0ced0a4bbd548e605a5bcf1, type: 2}
+  CoinCollectedSoundSO: {fileID: 11400000, guid: 26b1b56c1d1da8b4daf8c2263163e8e0,
+    type: 2}
+  LevelSuccessFulSoundSO: {fileID: 11400000, guid: 1df7f9d499f60a64ca741b288e0bf194,
+    type: 2}
+  LevelFailedSoundSO: {fileID: 11400000, guid: 22d722987039e824fbd9f58099a4d744, type: 2}
+  GarageSoundSO: {fileID: 11400000, guid: 7316efe783ef3ba4da05e453ee2c4e0d, type: 2}
+  FuelAddButtonSoundSO: {fileID: 11400000, guid: 98c911ec5b7df2b42a43afc0b08558a8,
+    type: 2}

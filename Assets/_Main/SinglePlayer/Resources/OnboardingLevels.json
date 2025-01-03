@@ -1,0 +1,212 @@
+[
+    {
+      "title": "Deliver Orders InTime",
+      "level": 1,
+      "orderTime": 60,
+      "orderMinRange": 20,
+      "orderMaxRange": 50,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 110
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and Collect Emoji InTime",
+      "level": 2,
+      "orderTime": 60,
+      "orderMinRange": 50,
+      "orderMaxRange": 100,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 120
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders InTime",
+      "level": 3,
+      "orderTime": 60,
+      "orderMinRange": 40,
+      "orderMaxRange": 70,
+      "levelBoosterCost": 10,
+     "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 130
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Order InTime with MinHealth",
+      "level": 4,
+      "orderTime": 60,
+      "orderMinRange": 100,
+      "orderMaxRange": 150,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 140
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and collect Emoji InTime with Min Health",
+      "level": 5,
+      "orderTime": 60,
+      "orderMinRange": 50,
+      "orderMaxRange": 150,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 150
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and collect Emoji InTime with Min Health",
+      "level": 6,
+      "orderTime": 60,
+      "orderMinRange": 50,
+      "orderMaxRange": 100,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 160
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders with Min Health",
+      "level": 7,
+      "orderTime": 60,
+      "orderMinRange": 10,
+      "orderMaxRange": 200,
+      "levelBoosterCost": 10,
+     "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 170
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    }
+  ]

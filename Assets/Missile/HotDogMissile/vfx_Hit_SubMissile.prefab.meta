@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+fileFormatVersion: 2
+guid: e46e2bf368264b843ae013349a085ea5
+timeCreated: 1530493397
+licenseType: Pro
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+=======
+fileFormatVersion: 2
+guid: e46e2bf368264b843ae013349a085ea5
+timeCreated: 1530493397
+licenseType: Pro
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> mp-pre-merge

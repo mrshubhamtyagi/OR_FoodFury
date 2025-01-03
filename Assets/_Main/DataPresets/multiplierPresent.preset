@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: multiplierPresent
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: a9069114a8d90fa45866253e3c60e853,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[0]
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[1]
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[2]
+    value: 27
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[3]
+    value: 41
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[4]
+    value: 59
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[5]
+    value: 79
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[6]
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipsPoints.Array.data[7]
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[0].MinPercentage
+    value: 80
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[0].MaxPercentage
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[0].Multiplier
+    value: 1.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[1].MinPercentage
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[1].MaxPercentage
+    value: 80
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[1].Multiplier
+    value: 1.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[2].MinPercentage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[2].MaxPercentage
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HealthMultiplier.Array.data[2].Multiplier
+    value: 1.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[0].MinPercentage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[0].MaxPercentage
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[0].Multiplier
+    value: 1.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[1].MinPercentage
+    value: 31
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[1].MaxPercentage
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[1].Multiplier
+    value: 1.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[2].MinPercentage
+    value: 61
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[2].MaxPercentage
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TimeMultiplier.Array.data[2].Multiplier
+    value: 1.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.data[0]
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.data[1]
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.data[2]
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.data[3]
+    value: 25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.data[4]
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.data[5]
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: NFTLevelMultiplier.Array.data[6]
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LevelXValue
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LevelYValue
+    value: 1.5
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

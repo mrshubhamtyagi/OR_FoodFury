@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2137968429821720376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3685269309399587197}
+  - component: {fileID: 1816200500723808402}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3685269309399587197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137968429821720376}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1816200500723808402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137968429821720376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d6fcbf9d0e72545b3d1285f1d617fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsGamePaused: 0
+  <LevelInfo>k__BackingField:
+    LevelBooster: 3
+    CurrentLevel:
+      title: 
+      level: 1
+      orderTime: 60
+      orderMinRange: 50
+      orderMaxRange: 400
+      levelBoosterCost: 10
+      objectives: []
+      conditions: []
+      boosterDetails: []
+    LevelTimer: 0
+    TotalDeliveries: 0
+    NFTDeliveries: 0
+    Chips: 0
+    Munches: 0
+    NFTScore: 0
+    GreenEmojis: 0
+    YellowEmojis: 0
+    RedEmojis: 0
+    TimeBonus: 0
+    StarValue: 0.33
+    StartTime: 0
+    TotalOrdersList: 
+    FilteredDishData: []
+  inputManagerPrefab: {fileID: 8474672054474931947, guid: 6c7fd447f3bd6490581abd01e57156da,
+    type: 3}
+  orderManagerPrefab: {fileID: 2076602464555553824, guid: 2415ec3e936174a0fb6fdd1d57fd2773,
+    type: 3}
+  boosterManagerPrefab: {fileID: 7308452760557604018, guid: 50365bca9cf6b42bca69f84a7d364ba7,
+    type: 3}
+  obstacleManagerPrefab: {fileID: 3815460915269281958, guid: 1711e20751b2f465bbae877c8d601f28,
+    type: 3}
+  weaponManagerPrefab: {fileID: 1310458080088364528, guid: cfe4ff09f7cf9435ca541db22e7f0567,
+    type: 3}
+  mascotSpawnManagerPrefab: {fileID: 6099235624241738328, guid: 394f731e8ed3429479d3f05aca519408,
+    type: 3}
+  playerCameraPrefab: {fileID: 5370490387556148335, guid: 658d01bcd5f31468c94bf161a39e9b0e,
+    type: 3}
+  playerLocalPrefab: {fileID: 4842945715328920730, guid: 7ddf9dbb2bd96d940b3ff22026745830,
+    type: 3}
+  rivalLocalPrefab: {fileID: 6273968435819086291, guid: d6755373b29620b47978a2f9f99cf99c,
+    type: 3}
+  cameraController: {fileID: 0}
+  <CalculationData>k__BackingField:
+    chipsPoints: 
+    HealthMultiplier: []
+    TimeMultiplier: []
+    NonNFTMunchValue: 2
+    LevelXValue: 0
+    LevelYValue: 0

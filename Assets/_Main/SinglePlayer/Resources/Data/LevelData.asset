@@ -1,0 +1,1588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622f82ec371346948bb9a5849422c0ba, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  version: 0
+  levels:
+  - title: Deliver Orders InTime with Min Health
+    level: 100
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 10
+    conditions:
+    - condition: 1
+      conditionValue: 650
+    - condition: 2
+      conditionValue: 80
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 91
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 9
+    conditions:
+    - condition: 1
+      conditionValue: 650
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 92
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 500
+    - condition: 2
+      conditionValue: 50
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 1
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 1
+      conditionValue: 250
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 10
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 210
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Order InTime with MinHealth
+    level: 9
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    - condition: 2
+      conditionValue: 10
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 4
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 270
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 3
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 1
+      conditionValue: 200
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 2
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 1
+      conditionValue: 220
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 7
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 220
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 8
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 250
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 2
+      conditionValue: 10
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 5
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 240
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 6
+    orderTime: 60
+    orderMinRange: 15
+    orderMaxRange: 50
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 1
+      conditionValue: 180
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Order InTime with MinHealth
+    level: 12
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    - condition: 2
+      conditionValue: 25
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Order with MinHealth
+    level: 15
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 19
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 320
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Order InTime with MinHealth
+    level: 11
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 1
+      conditionValue: 280
+    - condition: 2
+      conditionValue: 25
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 16
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 330
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Order InTime with MinHealth
+    level: 13
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 350
+    - condition: 2
+      conditionValue: 30
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 17
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 1
+      conditionValue: 160
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 18
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 2
+    conditions:
+    - condition: 1
+      conditionValue: 140
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Order with MinHealth
+    level: 14
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 20
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 1
+      conditionValue: 300
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 29
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 100
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 420
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 22
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 100
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    - condition: 2
+      conditionValue: 30
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 27
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 250
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 450
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 28
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 250
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 470
+    - condition: 2
+      conditionValue: 30
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 23
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 75
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 430
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 25
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 100
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 410
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 30
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 100
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 430
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 21
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 100
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 410
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 24
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 100
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 3
+    conditions:
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 26
+    orderTime: 60
+    orderMinRange: 50
+    orderMaxRange: 250
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 34
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 2
+      conditionValue: 25
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 40
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 450
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 38
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 410
+    - condition: 2
+      conditionValue: 30
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 36
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 380
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 39
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 460
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 35
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 100
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 480
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 31
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 450
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 37
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 430
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 32
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 450
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 33
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 125
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 4
+    conditions:
+    - condition: 1
+      conditionValue: 390
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 41
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 410
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 45
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 370
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 46
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 430
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 50
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 450
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 43
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 390
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 42
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 47
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 450
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 48
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 350
+    - condition: 2
+      conditionValue: 40
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 49
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 430
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 44
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 2
+      conditionValue: 25
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 52
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 460
+    - condition: 2
+      conditionValue: 40
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 57
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 56
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 410
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 51
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 440
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 59
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 54
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 2
+      conditionValue: 45
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 58
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 300
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 55
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 440
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 60
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 500
+    - condition: 2
+      conditionValue: 30
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 53
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 150
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 5
+    conditions:
+    - condition: 1
+      conditionValue: 340
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 61
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 390
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 66
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 380
+    - condition: 2
+      conditionValue: 40
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 67
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 370
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 65
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 470
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 64
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 2
+      conditionValue: 30
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 62
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    - condition: 2
+      conditionValue: 30
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 63
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 480
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 70
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 450
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 69
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 360
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 68
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 370
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 80
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 420
+    - condition: 2
+      conditionValue: 45
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 78
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 320
+    - condition: 2
+      conditionValue: 35
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 77
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 400
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 72
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 340
+    - condition: 2
+      conditionValue: 40
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 74
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 2
+      conditionValue: 45
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 75
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 420
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 76
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 340
+    - condition: 2
+      conditionValue: 40
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 71
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 350
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 79
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 6
+    conditions:
+    - condition: 1
+      conditionValue: 300
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 73
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 440
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 81
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 380
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 83
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 580
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 84
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 2
+      conditionValue: 50
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 90
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 500
+    - condition: 2
+      conditionValue: 45
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 85
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 370
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 89
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 330
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 87
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 7
+    conditions:
+    - condition: 1
+      conditionValue: 350
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 86
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 530
+    - condition: 2
+      conditionValue: 40
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 88
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 520
+    - condition: 2
+      conditionValue: 45
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 82
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 175
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 600
+    - condition: 2
+      conditionValue: 25
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 94
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 9
+    conditions:
+    - condition: 2
+      conditionValue: 65
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders with Min Health
+    level: 98
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 9
+    conditions:
+    - condition: 1
+      conditionValue: 570
+    - condition: 2
+      conditionValue: 70
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 75
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 9
+    conditions:
+    - condition: 1
+      conditionValue: 600
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 99
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 420
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime with Min Health
+    level: 96
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 8
+    conditions:
+    - condition: 1
+      conditionValue: 440
+    - condition: 2
+      conditionValue: 70
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 97
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 9
+    conditions:
+    - condition: 1
+      conditionValue: 580
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000
+  - title: Deliver Orders InTime
+    level: 93
+    orderTime: 60
+    orderMinRange: 70
+    orderMaxRange: 200
+    levelBoosterCost: 10
+    objectives:
+    - objective: 0
+      objectiveValue: 9
+    conditions:
+    - condition: 1
+      conditionValue: 630
+    boosterDetails:
+    - type: 0
+      values: 0a000000140000001e000000

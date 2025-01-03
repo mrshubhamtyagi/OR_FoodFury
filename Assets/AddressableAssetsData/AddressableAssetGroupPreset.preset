@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AddressableAssetGroupPreset
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_GroupName
+    value: LocalAssets
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Data.m_SerializedData.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_GUID
+    value: 7741972917bda734dae0f5ef54f13a33
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SerializeEntries.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ReadOnly
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Settings
+    value: 
+    objectReference: {fileID: 11400000, guid: 2ab6fea2e8f9e7f4a84ba52baa05236e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_SchemaSet.m_Schemas.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SchemaSet.m_Schemas.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 5f9e830263185584888ff4b11ba3c7a0, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_SchemaSet.m_Schemas.Array.data[1]
+    value: 
+    objectReference: {fileID: 11400000, guid: bc6193676034e44478a753161ed57551, type: 2}
+  m_ExcludedProperties: []

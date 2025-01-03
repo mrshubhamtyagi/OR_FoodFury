@@ -1,0 +1,3208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4221cd9f96c10409b3b65e4ad13f97, type: 3}
+  m_Name: MapData
+  m_EditorClassIdentifier: 
+  Data:
+  - mapName: Anton
+    sceneName: Friesland
+    mapDescription: Delight in the timeless flavors of authentic Slavic cuisine
+    thumbnailUrl: Anton.png
+    mapId: 1
+    mapTrack: Track_Anton.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 45
+        y: -45
+      smoothTime: 0.1
+      height: 50
+      angleX: 35
+      angleY: -45
+    dishDetails:
+    - name: CHICKEN SCHNITZEL
+      level: 1
+      points: 3
+      tokenId: 244
+      baseId: 244
+      season: 1
+      brand: Foodverse
+      country: Germany
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 51
+      spice_meter: 49
+      time_meter: 42
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MEAT PIEROGI
+      level: 1
+      points: 5
+      tokenId: 178
+      baseId: 178
+      season: 1
+      brand: Foodverse
+      country: Poland
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 47
+      spice_meter: 51
+      time_meter: 58
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BEEF STROGANOFF
+      level: 1
+      points: 7
+      tokenId: 600
+      baseId: 600
+      season: 1
+      brand: Foodverse
+      country: Russia
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 49
+      time_meter: 38
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "APPLE STRUDEL WITH CR\xC8ME"
+      level: 1
+      points: 5
+      tokenId: 899
+      baseId: 899
+      season: 2
+      brand: Foodverse
+      country: Austria
+      region: Western Europe
+      continent: Europe
+      diet: VEGETARIAN
+      method: 6
+      skill_meter: 61
+      spice_meter: 31
+      time_meter: 29
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN KIEV
+      level: 1
+      points: 4
+      tokenId: 981
+      baseId: 981
+      season: 2
+      brand: Foodverse
+      country: Ukraine
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 49
+      spice_meter: 57
+      time_meter: 37
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "VEP\u0158O KNEDLO ZELO"
+      level: 1
+      points: 6
+      tokenId: 6101
+      baseId: 6101
+      season: 3
+      brand: Foodverse
+      country: Czech Republic
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 2
+      skill_meter: 62
+      spice_meter: 40
+      time_meter: 57
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: KHACHAPURI ADJARULI
+      level: 1
+      points: 4
+      tokenId: 5847
+      baseId: 5847
+      season: 3
+      brand: Foodverse
+      country: Georgia
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 38
+      spice_meter: 67
+      time_meter: 50
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BEEF GOULASH
+      level: 1
+      points: 5
+      tokenId: 4793
+      baseId: 4793
+      season: 3
+      brand: Foodverse
+      country: Hungary
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 59
+      spice_meter: 52
+      time_meter: 55
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Titanic
+    sceneName: London
+    mapDescription: Dine like a First Class Passenger aboard the iconic RMS Titanic
+    thumbnailUrl: Titanic.png
+    mapId: 2
+    mapTrack: Track_Titanic.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 65
+        y: -65
+      smoothTime: 0.1
+      height: 80
+      angleX: 40
+      angleY: -45
+    dishDetails:
+    - name: VEAL AND HAM PIE
+      level: 1
+      points: 5
+      tokenId: 942
+      baseId: 942
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 49
+      spice_meter: 41
+      time_meter: 54
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: GRILLED MUTTON CHOPS
+      level: 1
+      points: 4
+      tokenId: 941
+      baseId: 941
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 37
+      spice_meter: 49
+      time_meter: 45
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: WALDORF PUDDING
+      level: 1
+      points: 5
+      tokenId: 952
+      baseId: 952
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 41
+      spice_meter: 20
+      time_meter: 38
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "P\xC2T\xC9 DE FOIE GRAS"
+      level: 1
+      points: 3
+      tokenId: 951
+      baseId: 951
+      season: 2
+      brand: Foodverse
+      country: France
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 30
+      time_meter: 32
+      number_of_ingredients: 5
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "APPLE STRUDEL WITH CR\xC8ME"
+      level: 1
+      points: 5
+      tokenId: 899
+      baseId: 899
+      season: 2
+      brand: Foodverse
+      country: Austria
+      region: Western Europe
+      continent: Europe
+      diet: VEGETARIAN
+      method: 6
+      skill_meter: 61
+      spice_meter: 31
+      time_meter: 29
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: GALANTINE OF CHICKEN
+      level: 1
+      points: 6
+      tokenId: 944
+      baseId: 944
+      season: 2
+      brand: Foodverse
+      country: France
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 59
+      spice_meter: 51
+      time_meter: 63
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ROAST BEEF
+      level: 1
+      points: 4
+      tokenId: 945
+      baseId: 945
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 7
+      skill_meter: 42
+      spice_meter: 43
+      time_meter: 69
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CORDON BLEU
+      level: 1
+      points: 5
+      tokenId: 6066
+      baseId: 6066
+      season: 3
+      brand: Foodverse
+      country: Switzerland
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 35
+      spice_meter: 46
+      time_meter: 54
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Route 66
+    sceneName: New York
+    mapDescription: Revisit the nostalgia of Good Ol' American Classics
+    thumbnailUrl: Route 66.png
+    mapId: 3
+    mapTrack: Track_Route66.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 45
+        y: -45
+      smoothTime: 0.1
+      height: 50
+      angleX: 35
+      angleY: -45
+    dishDetails:
+    - name: HAWAIIAN POKE BOWL
+      level: 1
+      points: 6
+      tokenId: 685
+      baseId: 685
+      season: 2
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 66
+      spice_meter: 38
+      time_meter: 29
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MAC AND CHEESE
+      level: 1
+      points: 4
+      tokenId: 470
+      baseId: 470
+      season: 1
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 29
+      spice_meter: 41
+      time_meter: 28
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FRIED CHICKEN
+      level: 1
+      points: 3
+      tokenId: 370
+      baseId: 370
+      season: 1
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 56
+      spice_meter: 57
+      time_meter: 52
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FRENCH FRIES
+      level: 1
+      points: 3
+      tokenId: 379
+      baseId: 379
+      season: 1
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: VEGAN
+      method: 5
+      skill_meter: 40
+      spice_meter: 36
+      time_meter: 38
+      number_of_ingredients: 3
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: HAMBURGER
+      level: 1
+      points: 5
+      tokenId: 192
+      baseId: 192
+      season: 1
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 42
+      spice_meter: 54
+      time_meter: 40
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: AMERICAN WAFFLES
+      level: 1
+      points: 4
+      tokenId: 857
+      baseId: 857
+      season: 2
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 8
+      skill_meter: 36
+      spice_meter: 25
+      time_meter: 29
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: Maine Lobster Roll
+      level: 1
+      points: 4
+      tokenId: 1007
+      baseId: 1007
+      season: 2
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 50
+      spice_meter: 49
+      time_meter: 32
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: NEWYORK HOTDOG
+      level: 1
+      points: 4
+      tokenId: 8453
+      baseId: 8453
+      season: 4
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 40
+      spice_meter: 58
+      time_meter: 36
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Bazaar
+    sceneName: Dubai
+    mapDescription: Serving the aroma of Middle East from the streets of Istanbul
+    thumbnailUrl: Bazaar.png
+    mapId: 4
+    mapTrack: Track_Bazar.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: "D\xD6NER KEBAB"
+      level: 1
+      points: 5
+      tokenId: 189
+      baseId: 189
+      season: 1
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 47
+      spice_meter: 56
+      time_meter: 52
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: INEGOL KOFTE
+      level: 1
+      points: 4
+      tokenId: 211
+      baseId: 211
+      season: 1
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 54
+      spice_meter: 60
+      time_meter: 72
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FRIED EGG TURKISH PIDE
+      level: 1
+      points: 4
+      tokenId: 532
+      baseId: 532
+      season: 1
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 79
+      spice_meter: 54
+      time_meter: 67
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ADANA KEBAB
+      level: 1
+      points: 5
+      tokenId: 210
+      baseId: 210
+      season: 1
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 49
+      spice_meter: 62
+      time_meter: 52
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHELO KEBAB
+      level: 1
+      points: 5
+      tokenId: 164
+      baseId: 164
+      season: 1
+      brand: Foodverse
+      country: Iran
+      region: Southern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 55
+      spice_meter: 42
+      time_meter: 68
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN SHAWARMA
+      level: 1
+      points: 6
+      tokenId: 212
+      baseId: 212
+      season: 1
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 7
+      skill_meter: 49
+      spice_meter: 59
+      time_meter: 46
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN KUMPIR
+      level: 1
+      points: 6
+      tokenId: 7336
+      baseId: 7336
+      season: 4
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 41
+      spice_meter: 56
+      time_meter: 49
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: LAHMACUN
+      level: 1
+      points: 7
+      tokenId: 7343
+      baseId: 7343
+      season: 4
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 37
+      spice_meter: 48
+      time_meter: 40
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Roots
+    sceneName: Friesland
+    mapDescription: Go Green with our wholesome menu for Vegetarians
+    thumbnailUrl: Roots.png
+    mapId: 5
+    mapTrack: Track_Roots.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 45
+        y: -45
+      smoothTime: 0.1
+      height: 50
+      angleX: 35
+      angleY: -45
+    dishDetails:
+    - name: MAC AND CHEESE
+      level: 1
+      points: 4
+      tokenId: 470
+      baseId: 470
+      season: 1
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 29
+      spice_meter: 41
+      time_meter: 28
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MASALA DOSA
+      level: 1
+      points: 4
+      tokenId: 351
+      baseId: 351
+      season: 1
+      brand: Foodverse
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGAN
+      method: 3
+      skill_meter: 83
+      spice_meter: 68
+      time_meter: 79
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FRENCH FRIES
+      level: 1
+      points: 3
+      tokenId: 379
+      baseId: 379
+      season: 1
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: VEGAN
+      method: 5
+      skill_meter: 40
+      spice_meter: 36
+      time_meter: 38
+      number_of_ingredients: 3
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: POFFERTJES
+      level: 1
+      points: 3
+      tokenId: 990
+      baseId: 990
+      season: 2
+      brand: Foodverse
+      country: Netherlands
+      region: Western Europe
+      continent: Europe
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 49
+      spice_meter: 20
+      time_meter: 45
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: LLAPINGACHO
+      level: 1
+      points: 5
+      tokenId: 7181
+      baseId: 7181
+      season: 4
+      brand: Foodverse
+      country: Ecuador
+      region: South America
+      continent: South America
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 39
+      spice_meter: 61
+      time_meter: 27
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SAKURA MOCHI
+      level: 1
+      points: 3
+      tokenId: 7564
+      baseId: 7564
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 35
+      time_meter: 28
+      number_of_ingredients: 5
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FATTET HUMMUS
+      level: 1
+      points: 6
+      tokenId: 6959
+      baseId: 6959
+      season: 3
+      brand: Foodverse
+      country: Syria
+      region: Western Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 30
+      spice_meter: 44
+      time_meter: 63
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "VEGAN SHEESE\xA9 GARDEN SPECIAL PIZZA"
+      level: 1
+      points: 9
+      tokenId: 918
+      baseId: 918
+      season: 2
+      brand: Papa Johns
+      country: UAE
+      region: Western Asia
+      continent: Asia
+      diet: VEGAN
+      method: 6
+      skill_meter: 82
+      spice_meter: 79
+      time_meter: 65
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Blanc
+    sceneName: New York
+    mapDescription: Travel across the seas and experience a world of flavors
+    thumbnailUrl: Blanc.png
+    mapId: 6
+    mapTrack: Track_Blanc.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 45
+        y: -45
+      smoothTime: 0.1
+      height: 50
+      angleX: 35
+      angleY: -45
+    dishDetails:
+    - name: POUTINE
+      level: 1
+      points: 5
+      tokenId: 152
+      baseId: 152
+      season: 1
+      brand: Foodverse
+      country: Canada
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 42
+      spice_meter: 37
+      time_meter: 51
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MOUSSAKA
+      level: 1
+      points: 5
+      tokenId: 160
+      baseId: 160
+      season: 1
+      brand: Foodverse
+      country: Greece
+      region: Southern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 46
+      spice_meter: 57
+      time_meter: 55
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "STEGT FL\xC6SK"
+      level: 1
+      points: 5
+      tokenId: 156
+      baseId: 156
+      season: 1
+      brand: Foodverse
+      country: Denmark
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 38
+      spice_meter: 27
+      time_meter: 67
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: HANGI PORK
+      level: 1
+      points: 3
+      tokenId: 174
+      baseId: 174
+      season: 1
+      brand: Foodverse
+      country: New Zealand
+      region: Australia and New Zealand
+      continent: Oceania
+      diet: NON VEGETARIAN
+      method: 9
+      skill_meter: 58
+      spice_meter: 56
+      time_meter: 78
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "PORONK\xC4RISTYS"
+      level: 1
+      points: 6
+      tokenId: 499
+      baseId: 499
+      season: 1
+      brand: Foodverse
+      country: Finland
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 74
+      spice_meter: 59
+      time_meter: 64
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "SVENSKA K\xD6TTBULLAR"
+      level: 1
+      points: 5
+      tokenId: 186
+      baseId: 186
+      season: 1
+      brand: Foodverse
+      country: Sweden
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 60
+      spice_meter: 52
+      time_meter: 65
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "F\xC5RIK\xC5L"
+      level: 1
+      points: 3
+      tokenId: 495
+      baseId: 495
+      season: 1
+      brand: Foodverse
+      country: Norway
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 53
+      spice_meter: 59
+      time_meter: 74
+      number_of_ingredients: 5
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: AUSSIE MEAT PIE
+      level: 1
+      points: 5
+      tokenId: 688
+      baseId: 688
+      season: 2
+      brand: Foodverse
+      country: Australia
+      region: Australia and New Zealand
+      continent: Australia
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 50
+      spice_meter: 40
+      time_meter: 46
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Red Lion
+    sceneName: London
+    mapDescription: Steeped in tradition, our menu celebrates the best of British
+      classics
+    thumbnailUrl: Red Lion.png
+    mapId: 7
+    mapTrack: Track_RedLion.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 65
+        y: -65
+      smoothTime: 0.1
+      height: 80
+      angleX: 40
+      angleY: -45
+    dishDetails:
+    - name: FISH & CHIPS
+      level: 1
+      points: 4
+      tokenId: 150
+      baseId: 150
+      season: 1
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 35
+      spice_meter: 37
+      time_meter: 63
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BANGERS AND MASH
+      level: 1
+      points: 5
+      tokenId: 492
+      baseId: 492
+      season: 1
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 27
+      spice_meter: 21
+      time_meter: 32
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN TIKKA MASALA
+      level: 1
+      points: 6
+      tokenId: 491
+      baseId: 491
+      season: 1
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 67
+      spice_meter: 59
+      time_meter: 63
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: VEAL AND HAM PIE
+      level: 1
+      points: 5
+      tokenId: 942
+      baseId: 942
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 49
+      spice_meter: 41
+      time_meter: 54
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: GRILLED MUTTON CHOPS
+      level: 1
+      points: 4
+      tokenId: 941
+      baseId: 941
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 37
+      spice_meter: 49
+      time_meter: 45
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: WALDORF PUDDING
+      level: 1
+      points: 5
+      tokenId: 952
+      baseId: 952
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 41
+      spice_meter: 20
+      time_meter: 38
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ROAST BEEF
+      level: 1
+      points: 4
+      tokenId: 945
+      baseId: 945
+      season: 2
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 7
+      skill_meter: 42
+      spice_meter: 43
+      time_meter: 69
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SUNDAY ROAST CHICKEN
+      level: 1
+      points: 4
+      tokenId: 8446
+      baseId: 8446
+      season: 4
+      brand: Foodverse
+      country: Britain
+      region: Northern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 7
+      skill_meter: 48
+      spice_meter: 61
+      time_meter: 74
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Nosh
+    sceneName: Dubai
+    mapDescription: Satisfy your midnight cravings with food that feels like home
+    thumbnailUrl: Nosh.png
+    mapId: 8
+    mapTrack: Track_Nosh.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: CHICKEN SCHNITZEL
+      level: 1
+      points: 3
+      tokenId: 244
+      baseId: 244
+      season: 1
+      brand: Foodverse
+      country: Germany
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 51
+      spice_meter: 49
+      time_meter: 42
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BEEF ENCHILADAS
+      level: 1
+      points: 6
+      tokenId: 534
+      baseId: 534
+      season: 1
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 73
+      spice_meter: 77
+      time_meter: 79
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN SHAWARMA
+      level: 1
+      points: 6
+      tokenId: 212
+      baseId: 212
+      season: 1
+      brand: Foodverse
+      country: Turkey
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 7
+      skill_meter: 49
+      spice_meter: 59
+      time_meter: 46
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: NASI GORENG
+      level: 1
+      points: 5
+      tokenId: 162
+      baseId: 162
+      season: 1
+      brand: Foodverse
+      country: Indonesia
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 42
+      spice_meter: 58
+      time_meter: 35
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: JOLLOF RICE
+      level: 1
+      points: 5
+      tokenId: 175
+      baseId: 175
+      season: 1
+      brand: Foodverse
+      country: Nigeria
+      region: Western Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 55
+      spice_meter: 61
+      time_meter: 58
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ICHIRAKU RAMEN
+      level: 1
+      points: 5
+      tokenId: 7550
+      baseId: 7550
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 76
+      time_meter: 44
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SPICY CHICKEN RANCH PIZZA
+      level: 1
+      points: 9
+      tokenId: 915
+      baseId: 915
+      season: 2
+      brand: Papa Johns
+      country: UAE
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 80
+      spice_meter: 73
+      time_meter: 69
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SUPER PAPA'S PIZZA
+      level: 1
+      points: 10
+      tokenId: 912
+      baseId: 912
+      season: 2
+      brand: Papa Johns
+      country: UAE
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 81
+      spice_meter: 75
+      time_meter: 67
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Oishii
+    sceneName: Tokyo
+    mapDescription: Pop culture meets Japanese flavors in our anime-inspired menu
+    thumbnailUrl: Oishii.png
+    mapId: 9
+    mapTrack: Track_Oishii.mp3
+    isActive: 1
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: CHIRASHI SUSHI
+      level: 1
+      points: 6
+      tokenId: 443
+      baseId: 443
+      season: 1
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 25
+      spice_meter: 38
+      time_meter: 18
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ICHIRAKU RAMEN
+      level: 1
+      points: 5
+      tokenId: 7550
+      baseId: 7550
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 76
+      time_meter: 44
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SAKURA MOCHI
+      level: 1
+      points: 3
+      tokenId: 7564
+      baseId: 7564
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 35
+      time_meter: 28
+      number_of_ingredients: 5
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: DORAYAKI
+      level: 1
+      points: 3
+      tokenId: 7578
+      baseId: 7578
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 50
+      spice_meter: 25
+      time_meter: 28
+      number_of_ingredients: 5
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: WINGTIP GYOZA
+      level: 1
+      points: 7
+      tokenId: 7592
+      baseId: 7592
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 70
+      spice_meter: 65
+      time_meter: 41
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SANJI SOBA
+      level: 1
+      points: 5
+      tokenId: 7599
+      baseId: 7599
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 38
+      spice_meter: 43
+      time_meter: 56
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: STEAMED RED BUNS
+      level: 1
+      points: 5
+      tokenId: 7620
+      baseId: 7620
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 9
+      skill_meter: 45
+      spice_meter: 33
+      time_meter: 69
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BENTO BOX
+      level: 1
+      points: 5
+      tokenId: 7606
+      baseId: 7606
+      season: 4
+      brand: Foodverse
+      country: Japan
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 44
+      spice_meter: 39
+      time_meter: 32
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Dragonfly
+    sceneName: Tokyo
+    mapDescription: Enjoy the fresh flavors of Asia with our classic lunch menu
+    thumbnailUrl: Dragonfly.png
+    mapId: 10
+    mapTrack: Track_Dragonfly.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: SINGAPOREAN DUCK RICE
+      level: 1
+      points: 4
+      tokenId: 636
+      baseId: 636
+      season: 2
+      brand: Foodverse
+      country: Singapore
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 76
+      spice_meter: 80
+      time_meter: 77
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: AMOK TREY
+      level: 1
+      points: 5
+      tokenId: 151
+      baseId: 151
+      season: 1
+      brand: Foodverse
+      country: Cambodia
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 48
+      spice_meter: 68
+      time_meter: 65
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: PAD THAI CHICKEN
+      level: 1
+      points: 6
+      tokenId: 188
+      baseId: 188
+      season: 1
+      brand: Foodverse
+      country: Thailand
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 48
+      spice_meter: 45
+      time_meter: 42
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FISH AMBUL THIYAL
+      level: 1
+      points: 5
+      tokenId: 445
+      baseId: 445
+      season: 1
+      brand: Foodverse
+      country: Sri Lanka
+      region: Southern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 44
+      spice_meter: 43
+      time_meter: 68
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: NASI GORENG
+      level: 1
+      points: 5
+      tokenId: 162
+      baseId: 162
+      season: 1
+      brand: Foodverse
+      country: Indonesia
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 42
+      spice_meter: 58
+      time_meter: 35
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: HILSA FISH CURRY
+      level: 1
+      points: 4
+      tokenId: 146
+      baseId: 146
+      season: 1
+      brand: Foodverse
+      country: Bangladesh
+      region: Southern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 58
+      spice_meter: 68
+      time_meter: 61
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MOROG PULAO
+      level: 1
+      points: 8
+      tokenId: 421
+      baseId: 421
+      season: 1
+      brand: Foodverse
+      country: Bangladesh
+      region: Southern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 58
+      spice_meter: 68
+      time_meter: 63
+      number_of_ingredients: 16
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ASAM LAKSA
+      level: 1
+      points: 6
+      tokenId: 639
+      baseId: 639
+      season: 2
+      brand: Foodverse
+      country: Malaysia
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 49
+      spice_meter: 58
+      time_meter: 66
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Layla
+    sceneName: Riyadh
+    mapDescription: Discover the rich and authentic flavors from the Middle East
+    thumbnailUrl: Layla.png
+    mapId: 11
+    mapTrack: Track_Layla.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: FALAFEL
+      level: 1
+      points: 4
+      tokenId: 166
+      baseId: 166
+      season: 1
+      brand: Foodverse
+      country: Israel
+      region: Western Asia
+      continent: Asia
+      diet: VEGAN
+      method: 5
+      skill_meter: 45
+      spice_meter: 66
+      time_meter: 60
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN KABSA
+      level: 1
+      points: 6
+      tokenId: 190
+      baseId: 190
+      season: 1
+      brand: Foodverse
+      country: Saudi Arabia
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 56
+      spice_meter: 62
+      time_meter: 60
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ZERESHK POLO MORGH
+      level: 1
+      points: 4
+      tokenId: 424
+      baseId: 424
+      season: 1
+      brand: Foodverse
+      country: Iran
+      region: Southern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 51
+      spice_meter: 54
+      time_meter: 67
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FUL MEDAMES
+      level: 1
+      points: 4
+      tokenId: 219
+      baseId: 219
+      season: 1
+      brand: Foodverse
+      country: Egypt
+      region: Northern Africa
+      continent: Africa
+      diet: VEGAN
+      method: 3
+      skill_meter: 58
+      spice_meter: 55
+      time_meter: 45
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MANSAF
+      level: 1
+      points: 7
+      tokenId: 826
+      baseId: 826
+      season: 2
+      brand: Foodverse
+      country: JORDAN
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 58
+      spice_meter: 43
+      time_meter: 71
+      number_of_ingredients: 13
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MANAKISH
+      level: 1
+      points: 4
+      tokenId: 662
+      baseId: 662
+      season: 2
+      brand: Foodverse
+      country: Lebanon
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 46
+      spice_meter: 48
+      time_meter: 37
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FATTET HUMMUS
+      level: 1
+      points: 6
+      tokenId: 6959
+      baseId: 6959
+      season: 3
+      brand: Foodverse
+      country: Syria
+      region: Western Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 30
+      spice_meter: 44
+      time_meter: 63
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: KHORESH GHEYMEH
+      level: 1
+      points: 6
+      tokenId: 7329
+      baseId: 7329
+      season: 4
+      brand: Foodverse
+      country: Iran
+      region: Southern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 62
+      spice_meter: 71
+      time_meter: 38
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Celeste
+    sceneName: Riyadh
+    mapDescription: Enjoy the best of European classics from France to Italy
+    thumbnailUrl: Celeste.png
+    mapId: 12
+    mapTrack: Track_Celeste.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: MOULES FRITES
+      level: 1
+      points: 5
+      tokenId: 147
+      baseId: 147
+      season: 1
+      brand: Foodverse
+      country: Belgium
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 52
+      spice_meter: 49
+      time_meter: 38
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: PAELLA SEAFOOD
+      level: 1
+      points: 6
+      tokenId: 182
+      baseId: 182
+      season: 1
+      brand: Foodverse
+      country: Spain
+      region: Southern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 56
+      spice_meter: 58
+      time_meter: 62
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SPAGHETTI & MEATBALLS
+      level: 1
+      points: 6
+      tokenId: 887
+      baseId: 887
+      season: 2
+      brand: Foodverse
+      country: Italy
+      region: Southern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 2
+      skill_meter: 58
+      spice_meter: 45
+      time_meter: 41
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "P\xC2T\xC9 DE FOIE GRAS"
+      level: 1
+      points: 3
+      tokenId: 951
+      baseId: 951
+      season: 2
+      brand: Foodverse
+      country: France
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 30
+      time_meter: 32
+      number_of_ingredients: 5
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: PIZZA NAPOLITANA
+      level: 1
+      points: 3
+      tokenId: 897
+      baseId: 897
+      season: 2
+      brand: Foodverse
+      country: Italy
+      region: Southern Europe
+      continent: Europe
+      diet: VEGETARIAN
+      method: 6
+      skill_meter: 33
+      spice_meter: 47
+      time_meter: 35
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: POFFERTJES
+      level: 1
+      points: 3
+      tokenId: 990
+      baseId: 990
+      season: 2
+      brand: Foodverse
+      country: Netherlands
+      region: Western Europe
+      continent: Europe
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 49
+      spice_meter: 20
+      time_meter: 45
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: GALANTINE OF CHICKEN
+      level: 1
+      points: 6
+      tokenId: 944
+      baseId: 944
+      season: 2
+      brand: Foodverse
+      country: France
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 59
+      spice_meter: 51
+      time_meter: 63
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CORDON BLEU
+      level: 1
+      points: 5
+      tokenId: 6066
+      baseId: 6066
+      season: 3
+      brand: Foodverse
+      country: Switzerland
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 35
+      spice_meter: 46
+      time_meter: 54
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Cantina
+    sceneName: Rio
+    mapDescription: Experience the diverse flavors of South America with every bite
+    thumbnailUrl: Cantina.png
+    mapId: 13
+    mapTrack: Track_Cantina.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: CEVICHE
+      level: 1
+      points: 5
+      tokenId: 176
+      baseId: 176
+      season: 1
+      brand: Foodverse
+      country: Peru
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 1
+      skill_meter: 53
+      spice_meter: 63
+      time_meter: 46
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "CHORIP\xC1N"
+      level: 1
+      points: 3
+      tokenId: 395
+      baseId: 395
+      season: 1
+      brand: Foodverse
+      country: Argentina
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 65
+      spice_meter: 67
+      time_meter: 62
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: PASTEL DE CHOCLO
+      level: 1
+      points: 5
+      tokenId: 153
+      baseId: 153
+      season: 1
+      brand: Foodverse
+      country: Chile
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 50
+      spice_meter: 41
+      time_meter: 63
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BANDEJA PAISA
+      level: 1
+      points: 5
+      tokenId: 155
+      baseId: 155
+      season: 1
+      brand: Foodverse
+      country: Colombia
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 73
+      spice_meter: 45
+      time_meter: 78
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FEIJOADA
+      level: 1
+      points: 5
+      tokenId: 149
+      baseId: 149
+      season: 1
+      brand: Foodverse
+      country: Brazil
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 66
+      spice_meter: 39
+      time_meter: 78
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: LLAPINGACHO
+      level: 1
+      points: 5
+      tokenId: 7181
+      baseId: 7181
+      season: 4
+      brand: Foodverse
+      country: Ecuador
+      region: South America
+      continent: South America
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 39
+      spice_meter: 61
+      time_meter: 27
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: ASADO NEGRO
+      level: 1
+      points: 5
+      tokenId: 7050
+      baseId: 7050
+      season: 3
+      brand: Foodverse
+      country: Venezuela
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 7
+      skill_meter: 72
+      spice_meter: 71
+      time_meter: 69
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: SOPA PARAGUAYA
+      level: 1
+      points: 5
+      tokenId: 5917
+      baseId: 5917
+      season: 3
+      brand: Foodverse
+      country: Paraguay
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 30
+      spice_meter: 44
+      time_meter: 67
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Senorita
+    sceneName: Rio
+    mapDescription: Spice up your day with the bold flavors of Mexico
+    thumbnailUrl: Senorita.png
+    mapId: 14
+    mapTrack: Track_Senorita.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: NACHOS WITH SALSA
+      level: 1
+      points: 6
+      tokenId: 271
+      baseId: 271
+      season: 1
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: VEGETARIAN
+      method: 6
+      skill_meter: 51
+      spice_meter: 67
+      time_meter: 47
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BEEF ENCHILADAS
+      level: 1
+      points: 6
+      tokenId: 534
+      baseId: 534
+      season: 1
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 73
+      spice_meter: 77
+      time_meter: 79
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: POBLANO CHILE RELLENO
+      level: 1
+      points: 4
+      tokenId: 653
+      baseId: 653
+      season: 2
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 47
+      spice_meter: 67
+      time_meter: 42
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: Fish Tacos
+      level: 1
+      points: 6
+      tokenId: 1008
+      baseId: 1008
+      season: 2
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 68
+      spice_meter: 40
+      time_meter: 54
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHILAQUILES VERDES
+      level: 1
+      points: 5
+      tokenId: 853
+      baseId: 853
+      season: 2
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: VEGETARIAN
+      method: 6
+      skill_meter: 49
+      spice_meter: 58
+      time_meter: 53
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: TRES LECHES
+      level: 1
+      points: 5
+      tokenId: 5447
+      baseId: 5447
+      season: 3
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 32
+      spice_meter: 30
+      time_meter: 43
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHOCOLATE MOLE
+      level: 1
+      points: 7
+      tokenId: 7963
+      baseId: 7963
+      season: 4
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 34
+      spice_meter: 69
+      time_meter: 66
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: POZOLE ROJO
+      level: 1
+      points: 6
+      tokenId: 8005
+      baseId: 8005
+      season: 4
+      brand: Foodverse
+      country: Mexico
+      region: Central America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 45
+      spice_meter: 59
+      time_meter: 68
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Mahal
+    sceneName: Delhi
+    mapDescription: Discover the vibrant flavors from the bustling streets of India
+    thumbnailUrl: Mahal.png
+    mapId: 15
+    mapTrack: Track_Mahal.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: SAMOSA
+      level: 1
+      points: 5
+      tokenId: 161
+      baseId: 161
+      season: 1
+      brand: Foodverse
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 5
+      skill_meter: 48
+      spice_meter: 61
+      time_meter: 54
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MASALA DOSA
+      level: 1
+      points: 4
+      tokenId: 351
+      baseId: 351
+      season: 1
+      brand: Foodverse
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGAN
+      method: 3
+      skill_meter: 83
+      spice_meter: 68
+      time_meter: 79
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: TANDOORI CHICKEN
+      level: 1
+      points: 5
+      tokenId: 523
+      baseId: 523
+      season: 1
+      brand: Foodverse
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 68
+      spice_meter: 85
+      time_meter: 77
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: LITTI CHOKHA
+      level: 1
+      points: 7
+      tokenId: 602
+      baseId: 602
+      season: 1
+      brand: Foodverse
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 49
+      spice_meter: 66
+      time_meter: 61
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHOLE BHATURE
+      level: 1
+      points: 6
+      tokenId: 353
+      baseId: 353
+      season: 1
+      brand: Foodverse
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 85
+      spice_meter: 79
+      time_meter: 77
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MAGGI PAV BHAJI
+      level: 1
+      points: 13
+      tokenId: 4929
+      baseId: 4929
+      season: 3
+      brand: MAGGI
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 78
+      spice_meter: 90
+      time_meter: 88
+      number_of_ingredients: 15
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: VEGGIE DELIGHT MAGGI NOODLES
+      level: 1
+      points: 10
+      tokenId: 4891
+      baseId: 4891
+      season: 3
+      brand: MAGGI
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 69
+      spice_meter: 90
+      time_meter: 76
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: EASY PEASY MAGGI NOODLES
+      level: 1
+      points: 9
+      tokenId: 4884
+      baseId: 4884
+      season: 3
+      brand: MAGGI
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 80
+      spice_meter: 82
+      time_meter: 77
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: East
+    sceneName: Delhi
+    mapDescription: Take a walk down the streets of Asia and eat like the locals
+    thumbnailUrl: East.png
+    mapId: 16
+    mapTrack: Track_East.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: "B\xC1NH M\xCC"
+      level: 1
+      points: 6
+      tokenId: 310
+      baseId: 310
+      season: 1
+      brand: Foodverse
+      country: Vietnam
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 48
+      spice_meter: 49
+      time_meter: 54
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: GUA BAO
+      level: 1
+      points: 4
+      tokenId: 679
+      baseId: 679
+      season: 2
+      brand: Foodverse
+      country: Taiwan
+      region: Eastern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 39
+      spice_meter: 45
+      time_meter: 58
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN ADOBO
+      level: 1
+      points: 4
+      tokenId: 177
+      baseId: 177
+      season: 1
+      brand: Foodverse
+      country: Philippines
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 58
+      spice_meter: 52
+      time_meter: 43
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BULGOGI
+      level: 1
+      points: 5
+      tokenId: 393
+      baseId: 393
+      season: 1
+      brand: Foodverse
+      country: South Korea
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 66
+      spice_meter: 58
+      time_meter: 74
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BIBIMBAP
+      level: 1
+      points: 7
+      tokenId: 670
+      baseId: 670
+      season: 2
+      brand: Foodverse
+      country: North Korea
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 73
+      spice_meter: 51
+      time_meter: 72
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: DAN DAN
+      level: 1
+      points: 6
+      tokenId: 587
+      baseId: 587
+      season: 1
+      brand: Foodverse
+      country: China
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 66
+      spice_meter: 82
+      time_meter: 71
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: GADO GADO
+      level: 1
+      points: 7
+      tokenId: 691
+      baseId: 691
+      season: 2
+      brand: Foodverse
+      country: Indonesia
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 78
+      spice_meter: 53
+      time_meter: 36
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BREAKFAST CONGEE
+      level: 1
+      points: 4
+      tokenId: 889
+      baseId: 889
+      season: 2
+      brand: Foodverse
+      country: China
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 31
+      spice_meter: 37
+      time_meter: 54
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Ubuntu
+    sceneName: Cairo
+    mapDescription: Savor the authentic taste of Africa's rich culinary heritage
+    thumbnailUrl: Ubuntu.png
+    mapId: 17
+    mapTrack: Track_Ubuntu.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: DORO WAT
+      level: 1
+      points: 5
+      tokenId: 791
+      baseId: 791
+      season: 2
+      brand: Foodverse
+      country: ETHIOPIA
+      region: Eastern Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 56
+      spice_meter: 72
+      time_meter: 45
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: NYAMA CHOMA
+      level: 1
+      points: 4
+      tokenId: 168
+      baseId: 168
+      season: 1
+      brand: Foodverse
+      country: Kenya
+      region: Eastern Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 55
+      spice_meter: 60
+      time_meter: 64
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: KOSHARY
+      level: 1
+      points: 5
+      tokenId: 220
+      baseId: 220
+      season: 1
+      brand: Foodverse
+      country: Egypt
+      region: Northern Africa
+      continent: Africa
+      diet: VEGAN
+      method: 3
+      skill_meter: 62
+      spice_meter: 52
+      time_meter: 68
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: JOLLOF RICE
+      level: 1
+      points: 5
+      tokenId: 175
+      baseId: 175
+      season: 1
+      brand: Foodverse
+      country: Nigeria
+      region: Western Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 55
+      spice_meter: 61
+      time_meter: 58
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BUNNY CHOW
+      level: 1
+      points: 6
+      tokenId: 608
+      baseId: 608
+      season: 1
+      brand: Foodverse
+      country: South Africa
+      region: Southern Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 62
+      spice_meter: 71
+      time_meter: 66
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: EGUSI STEW WITH GOAT
+      level: 1
+      points: 6
+      tokenId: 801
+      baseId: 801
+      season: 2
+      brand: Foodverse
+      country: NIGERIA
+      region: Western Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 58
+      spice_meter: 66
+      time_meter: 61
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FUFU AND SOUP
+      level: 1
+      points: 6
+      tokenId: 5711
+      baseId: 5711
+      season: 3
+      brand: Foodverse
+      country: Ghana
+      region: Western Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 49
+      spice_meter: 33
+      time_meter: 58
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MEATBALL TAGINE
+      level: 1
+      points: 6
+      tokenId: 8474
+      baseId: 8474
+      season: 4
+      brand: Foodverse
+      country: Morocco
+      region: Northern Africa
+      continent: Africa
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 51
+      spice_meter: 69
+      time_meter: 38
+      number_of_ingredients: 11
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Sunrise
+    sceneName: Cairo
+    mapDescription: Kickstart your day with our delicious and hearty breakfast offerings
+    thumbnailUrl: Sunrise.png
+    mapId: 18
+    mapTrack: Track_Sunrise.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 95
+        y: -95
+      smoothTime: 0.1
+      height: 80
+      angleX: 30
+      angleY: -45
+    dishDetails:
+    - name: "B\xC1NH M\xCC"
+      level: 1
+      points: 6
+      tokenId: 310
+      baseId: 310
+      season: 1
+      brand: Foodverse
+      country: Vietnam
+      region: South-eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 4
+      skill_meter: 48
+      spice_meter: 49
+      time_meter: 54
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: HAWAIIAN POKE BOWL
+      level: 1
+      points: 6
+      tokenId: 685
+      baseId: 685
+      season: 2
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 66
+      spice_meter: 38
+      time_meter: 29
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHOLE BHATURE
+      level: 1
+      points: 6
+      tokenId: 353
+      baseId: 353
+      season: 1
+      brand: Foodverse
+      country: India
+      region: Southern Asia
+      continent: Asia
+      diet: VEGETARIAN
+      method: 3
+      skill_meter: 85
+      spice_meter: 79
+      time_meter: 77
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: KOSHARY
+      level: 1
+      points: 5
+      tokenId: 220
+      baseId: 220
+      season: 1
+      brand: Foodverse
+      country: Egypt
+      region: Northern Africa
+      continent: Africa
+      diet: VEGAN
+      method: 3
+      skill_meter: 62
+      spice_meter: 52
+      time_meter: 68
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BANDEJA PAISA
+      level: 1
+      points: 5
+      tokenId: 155
+      baseId: 155
+      season: 1
+      brand: Foodverse
+      country: Colombia
+      region: South America
+      continent: South America
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 73
+      spice_meter: 45
+      time_meter: 78
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: FUL MEDAMES
+      level: 1
+      points: 4
+      tokenId: 219
+      baseId: 219
+      season: 1
+      brand: Foodverse
+      country: Egypt
+      region: Northern Africa
+      continent: Africa
+      diet: VEGAN
+      method: 3
+      skill_meter: 58
+      spice_meter: 55
+      time_meter: 45
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: AMERICAN WAFFLES
+      level: 1
+      points: 4
+      tokenId: 857
+      baseId: 857
+      season: 2
+      brand: Foodverse
+      country: USA
+      region: Northern America
+      continent: North America
+      diet: NON VEGETARIAN
+      method: 8
+      skill_meter: 36
+      spice_meter: 25
+      time_meter: 29
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BREAKFAST CONGEE
+      level: 1
+      points: 4
+      tokenId: 889
+      baseId: 889
+      season: 2
+      brand: Foodverse
+      country: China
+      region: Eastern Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 31
+      spice_meter: 37
+      time_meter: 54
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+  - mapName: Papa Johns
+    sceneName: PapaJohns
+    mapDescription: Delight in the timeless flavors of authentic Slavic cuisine
+    thumbnailUrl: Anton.png
+    mapId: 19
+    mapTrack: Track_Anton.mp3
+    isActive: 0
+    cameraSettings:
+      offset:
+        x: 45
+        y: -45
+      smoothTime: 0.1
+      height: 50
+      angleX: 35
+      angleY: -45
+    dishDetails:
+    - name: CHICKEN SCHNITZEL
+      level: 1
+      points: 3
+      tokenId: 244
+      baseId: 244
+      season: 1
+      brand: Foodverse
+      country: Germany
+      region: Western Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 51
+      spice_meter: 49
+      time_meter: 42
+      number_of_ingredients: 6
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: MEAT PIEROGI
+      level: 1
+      points: 5
+      tokenId: 178
+      baseId: 178
+      season: 1
+      brand: Foodverse
+      country: Poland
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 47
+      spice_meter: 51
+      time_meter: 58
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BEEF STROGANOFF
+      level: 1
+      points: 7
+      tokenId: 600
+      baseId: 600
+      season: 1
+      brand: Foodverse
+      country: Russia
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 35
+      spice_meter: 49
+      time_meter: 38
+      number_of_ingredients: 14
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "APPLE STRUDEL WITH CR\xC8ME"
+      level: 1
+      points: 5
+      tokenId: 899
+      baseId: 899
+      season: 2
+      brand: Foodverse
+      country: Austria
+      region: Western Europe
+      continent: Europe
+      diet: VEGETARIAN
+      method: 6
+      skill_meter: 61
+      spice_meter: 31
+      time_meter: 29
+      number_of_ingredients: 10
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: CHICKEN KIEV
+      level: 1
+      points: 4
+      tokenId: 981
+      baseId: 981
+      season: 2
+      brand: Foodverse
+      country: Ukraine
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 5
+      skill_meter: 49
+      spice_meter: 57
+      time_meter: 37
+      number_of_ingredients: 8
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: "VEP\u0158O KNEDLO ZELO"
+      level: 1
+      points: 6
+      tokenId: 6101
+      baseId: 6101
+      season: 3
+      brand: Foodverse
+      country: Czech Republic
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 2
+      skill_meter: 62
+      spice_meter: 40
+      time_meter: 57
+      number_of_ingredients: 12
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: KHACHAPURI ADJARULI
+      level: 1
+      points: 4
+      tokenId: 5847
+      baseId: 5847
+      season: 3
+      brand: Foodverse
+      country: Georgia
+      region: Western Asia
+      continent: Asia
+      diet: NON VEGETARIAN
+      method: 6
+      skill_meter: 38
+      spice_meter: 67
+      time_meter: 50
+      number_of_ingredients: 7
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0
+    - name: BEEF GOULASH
+      level: 1
+      points: 5
+      tokenId: 4793
+      baseId: 4793
+      season: 3
+      brand: Foodverse
+      country: Hungary
+      region: Eastern Europe
+      continent: Europe
+      diet: NON VEGETARIAN
+      method: 3
+      skill_meter: 59
+      spice_meter: 52
+      time_meter: 55
+      number_of_ingredients: 9
+      qtyForUpgrade: 0
+      quantity: 0
+      upgradeFee: 0

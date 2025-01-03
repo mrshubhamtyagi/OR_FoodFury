@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Telegram
+  m_EditorClassIdentifier: 
+  m_GroupName: Telegram
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 97c9fef3451304d7b99962a0f788c224
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2ab6fea2e8f9e7f4a84ba52baa05236e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 35ac6b942e12e4c0f8a3fd2cb3fbb13e, type: 2}
+    - {fileID: 11400000, guid: 0ec9e9194dab84fcca729c84b1d87c78, type: 2}

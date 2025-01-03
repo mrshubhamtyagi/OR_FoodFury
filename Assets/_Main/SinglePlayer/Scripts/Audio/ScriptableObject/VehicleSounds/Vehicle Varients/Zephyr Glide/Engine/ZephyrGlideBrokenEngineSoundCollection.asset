@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59bb6a422b1c1124fbc1e1809794d1fd, type: 3}
+  m_Name: ZephyrGlideBrokenEngineSoundCollection
+  m_EditorClassIdentifier: Assembly-CSharp::EngineSoundSO
+  StartingEngineSound: {fileID: 11400000, guid: f6f0b2a11266d5b439c3d9b8231165e8,
+    type: 2}
+  InBetweenEngineSound: {fileID: 11400000, guid: 10421ebbcbb94a14aa06f39d9dde0949,
+    type: 2}

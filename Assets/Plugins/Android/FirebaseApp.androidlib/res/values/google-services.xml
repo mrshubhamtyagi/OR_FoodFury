@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">1006547548137</string>
+  <string name="google_storage_bucket" translatable="false">onerare-otp.appspot.com</string>
+  <string name="project_id" translatable="false">onerare-otp</string>
+  <string name="google_api_key" translatable="false">AIzaSyDcDQgGmXPkEDQVirQvYt4u9biDkNBvkYo</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDcDQgGmXPkEDQVirQvYt4u9biDkNBvkYo</string>
+  <string name="google_app_id" translatable="false">1:1006547548137:android:6f8a3a5690e2c01c63bd78</string>
+  <string name="default_android_client_id" translatable="false">1006547548137-1ot10a51h8qljjc3mt0875b5i4qtk17m.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">1006547548137-mvn66kij6v043l0fkqdkau371jr1ee8k.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2076602464555553824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8432743512235305449}
+  - component: {fileID: 6795674905340976687}
+  m_Layer: 0
+  m_Name: OrderManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8432743512235305449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076602464555553824}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6795674905340976687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076602464555553824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d619fff16d47841b89cd516824b860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderPrefab: {fileID: -5383893914586953481, guid: f14d50a3d319909468625cbe07157ca8,
+    type: 3}
+  defaultDishImage: {fileID: 2800000, guid: b6bf70f9b5da244c3a38cfb78aa9f98a, type: 3}
+  orders: []
+  dishData:
+    tokenId: 0
+    name: 
+    country: 
+    skill_meter: 0
+    time_meter: 0
+    spice_meter: 0
+    Brand: 
+    attributes: []
+    level: 0
+  dummyOrder:
+    tokenId: 100
+    name: Dummy Dish
+    country: India
+    skill_meter: 50
+    time_meter: 50
+    spice_meter: 50
+    Brand: OneRare
+    attributes:
+    - trait_type: Region
+      display_type: 
+      max_value: 0
+    - trait_type: Continent
+      display_type: 
+      max_value: 0
+    - trait_type: Country
+      display_type: 
+      max_value: 0
+    - trait_type: Diet
+      display_type: 
+      max_value: 0
+    - trait_type: Method
+      display_type: 
+      max_value: 0
+    - trait_type: Brand
+      display_type: 
+      max_value: 0
+    - trait_type: Skill Meter
+      display_type: 93
+      max_value: 0
+    - trait_type: Time Meter
+      display_type: 23
+      max_value: 0
+    - trait_type: Spice Meter
+      display_type: 100
+      max_value: 0
+    level: 1

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1006547548137",
+    "project_id": "onerare-otp",
+    "storage_bucket": "onerare-otp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006547548137:android:6f8a3a5690e2c01c63bd78",
+        "android_client_info": {
+          "package_name": "com.OneRare.FoodFury"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006547548137-1ot10a51h8qljjc3mt0875b5i4qtk17m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.OneRare.FoodFury",
+            "certificate_hash": "14cbed120ee87cd3b32537542d4e45a16fbb8cae"
+          }
+        },
+        {
+          "client_id": "1006547548137-oaa7d0mf0tg69redvtu2ct7er0h0qf65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.OneRare.FoodFury",
+            "certificate_hash": "96faa4798b755c04dfa09901062fe2385fef10d9"
+          }
+        },
+        {
+          "client_id": "1006547548137-mvn66kij6v043l0fkqdkau371jr1ee8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcDQgGmXPkEDQVirQvYt4u9biDkNBvkYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006547548137-loi6pcip0b5h36qh2ue3hspeg00929og.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1006547548137-eg9njfjp66vqc8nqu6agdihhtqdmb5j7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onerare.foodverse"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

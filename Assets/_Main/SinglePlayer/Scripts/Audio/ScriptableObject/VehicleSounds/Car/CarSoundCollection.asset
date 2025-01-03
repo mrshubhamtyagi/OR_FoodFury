@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd9fedd573e764f4b8c75e89527a5317, type: 3}
+  m_Name: CarSoundCollection
+  m_EditorClassIdentifier: 
+  normalEngineSound: {fileID: 11400000, guid: 62509de5c6bd9b647ac6b91c29de8583, type: 2}
+  brokenEngineSound: {fileID: 11400000, guid: 62509de5c6bd9b647ac6b91c29de8583, type: 2}
+  Crash: {fileID: 11400000, guid: c3635dd223a94df479af39ef0b32bccd, type: 2}
+  Drift: {fileID: 11400000, guid: f8f3644fe91b81544adc117dff6185db, type: 2}
+  LowFuel: {fileID: 11400000, guid: 4af98c0b185775c478624f5687f56185, type: 2}
+  LowHealth: {fileID: 11400000, guid: 5669271fd7154c94e9a0728a3079bd7a, type: 2}
+  DeliveryComplete: {fileID: 11400000, guid: 7eea572d118b3da48b38cf30edfe1f3b, type: 2}
+  DeliveryFailed: {fileID: 11400000, guid: 03e19c25946ac124ea30a600923d2853, type: 2}
+  BoosterCollected: {fileID: 11400000, guid: dbac65e39e8b10d48b483d7c5574135d, type: 2}

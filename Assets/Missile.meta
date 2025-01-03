@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Missile.meta
+fileFormatVersion: 2
+guid: 36c62ac3d792e9f439cc9976a1926cc6
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+========
+fileFormatVersion: 2
+guid: 001a15402063b4df983ba8bc4ddb269f
+folderAsset: yes
+timeCreated: 1537405253
+licenseType: Pro
+=======
+fileFormatVersion: 2
+guid: 36c62ac3d792e9f439cc9976a1926cc6
+folderAsset: yes
+>>>>>>> mp-pre-merge
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+<<<<<<< HEAD
+>>>>>>>> mp-pre-merge:Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.meta
+=======
+>>>>>>> mp-pre-merge

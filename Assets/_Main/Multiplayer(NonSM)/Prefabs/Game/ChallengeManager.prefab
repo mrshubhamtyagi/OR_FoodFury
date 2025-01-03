@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6351450479958591994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3954108182297486606}
+  - component: {fileID: 6197245773714979921}
+  - component: {fileID: 2884120680662352545}
+  m_Layer: 0
+  m_Name: ChallengeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3954108182297486606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351450479958591994}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6197245773714979921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351450479958591994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b77b8d71be9ca49a431949963053eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultDishImage: {fileID: 2800000, guid: b6bf70f9b5da244c3a38cfb78aa9f98a, type: 3}
+  orderPrefab: {fileID: 2196877044442112174, guid: b1e94e56ef173c74995466cde151bc95,
+    type: 3}
+  dishData:
+    name: 
+    level: 0
+    points: 0
+    tokenId: 0
+    baseId: 0
+    season: 0
+    brand: 
+    country: 
+    region: 
+    continent: 
+    diet: 
+    method: 0
+    skill_meter: 0
+    spice_meter: 0
+    time_meter: 0
+    number_of_ingredients: 0
+    qtyForUpgrade: 0
+    quantity: 0
+    upgradeFee: 0
+  dummyOrder:
+    name: 
+    level: 0
+    points: 0
+    tokenId: 0
+    baseId: 0
+    season: 0
+    brand: 
+    country: 
+    region: 
+    continent: 
+    diet: 
+    method: 0
+    skill_meter: 0
+    spice_meter: 0
+    time_meter: 0
+    number_of_ingredients: 0
+    qtyForUpgrade: 0
+    quantity: 0
+    upgradeFee: 0
+  spawnUserDish: 0
+  orderPrefabSP: {fileID: 206355240774142910, guid: b1e94e56ef173c74995466cde151bc95,
+    type: 3}
+  endRaceUIPrefab: {fileID: 8845968426697940815, guid: 18ed7d9b54543bb4897c58396edeb360,
+    type: 3}
+  splashUIItemPrefab: {fileID: 4503692224450057314, guid: f4b1e89a2bde5454791ccc56a6bb18c3,
+    type: 3}
+  _Time: 
+  _RandomIndex: 0
+  _OrderPosition: {x: 0, y: 0, z: 0}
+  _IsRoundOver: 0
+  _IsMatchOver: 0
+  _IsMatchStarted: 0
+  _CurrentEliminationRound: 0
+  _FillAmount: 0
+  activeOrders: []
+--- !u!114 &2884120680662352545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351450479958591994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 4099596300
+  ObjectInterest: 1
+  Flags: 131073
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 6197245773714979921}

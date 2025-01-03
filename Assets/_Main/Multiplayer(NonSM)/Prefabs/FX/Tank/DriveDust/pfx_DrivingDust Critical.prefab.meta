@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/Prefabs/Death.prefab.meta
+guid: 81dcd07542f17754285e45621cfe9888
+========
+guid: 098757359e9e6ab43af91557450b42e7
+>>>>>>>> mp-pre-merge:Assets/_Main/Multiplayer(NonSM)/Prefabs/FX/Tank/DriveDust/pfx_DrivingDust Critical.prefab.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

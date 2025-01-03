@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/VoxelBusters/EssentialKit/Plugins/iOS/EssentialKitGroup.asset.meta
+guid: 52aa1427fb2704a9cbecc9c6eca2c82c
+========
+guid: e4b39eda0a5c84f559009ce2c6e63c74
+>>>>>>>> mp-pre-merge:Assets/AddressableAssetsData/AssetGroups/Telegram.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 7741972917bda734dae0f5ef54f13a33
+  m_currentHash:
+    serializedVersion: 2
+    Hash: fe7879005f6bddb4dfdf0bb16316c952
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_InternalIdNamingMode: 1
+  m_InternalBundleIdMode: 1
+  m_AssetLoadMode: 0
+  m_BundledAssetProviderType:
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  m_AssetBundleProviderType:
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_EnableJsonCatalog: 1
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 10
+  m_UseUWRForLocalBundles: 0
+  m_BundleTimeout: 0
+  m_BundleRetryCount: 0
+  m_BundleRedirectLimit: -1
+  m_SharedBundleSettings: 0
+  m_SharedBundleSettingsCustomGroupIndex: 0
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_BuiltInBundleNaming: 0
+  mBuiltInBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: f9750d74bc372f14f8a8eeb63db9e024
+  m_RemoteCatalogLoadPath:
+    m_Id: 0f31ebab6012cc24299c1048c4a96c89
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 661a877c74078de4290f771eac2fd632, type: 2}
+  - {fileID: 11400000, guid: 660d6fd1f67e454499e8cb40964cc475, type: 2}
+  - {fileID: 11400000, guid: e4b39eda0a5c84f559009ce2c6e63c74, type: 2}
+  - {fileID: 11400000, guid: 9335c407e62972a4688a0a02f3ce36fa, type: 2}
+  m_BuildSettings:
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 5025b93be25064c0e82feb3e5281b551
+      m_ProfileName: Production
+      m_Values:
+      - m_Id: 0f31ebab6012cc24299c1048c4a96c89
+        m_Value: 'https://gobbl-bucket.s3.ap-south-1.amazonaws.com/FoodFuryAddressables/Production/[BuildTarget]'
+      - m_Id: 1d6f3dfa40160cb48bdfebb917da429b
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 4842cdcd57f187f48bee6f9c094e9b0e
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 86e4fcc55d622304aaed994dee69afaf
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: f9750d74bc372f14f8a8eeb63db9e024
+        m_Value: 'ServerData/[BuildTarget]'
+    - m_InheritedParent: 
+      m_Id: 589bcc02938a0448bbe9d14a4bf88f9c
+      m_ProfileName: Telegram
+      m_Values:
+      - m_Id: 0f31ebab6012cc24299c1048c4a96c89
+        m_Value: 'https://gobbl-bucket.s3.ap-south-1.amazonaws.com/FoodFuryAddressables/Telegram/[BuildTarget]'
+      - m_Id: 1d6f3dfa40160cb48bdfebb917da429b
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 4842cdcd57f187f48bee6f9c094e9b0e
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 86e4fcc55d622304aaed994dee69afaf
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: f9750d74bc372f14f8a8eeb63db9e024
+        m_Value: 'ServerData/[BuildTarget]'
+    - m_InheritedParent: 
+      m_Id: 6ec251afc9a461846aecd686d9718755
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 0f31ebab6012cc24299c1048c4a96c89
+        m_Value: 'http://[PrivateIpAddress]:[HostingServicePort]'
+      - m_Id: 1d6f3dfa40160cb48bdfebb917da429b
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 4842cdcd57f187f48bee6f9c094e9b0e
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 86e4fcc55d622304aaed994dee69afaf
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: f9750d74bc372f14f8a8eeb63db9e024
+        m_Value: 'ServerData/[BuildTarget]'
+    - m_InheritedParent: 
+      m_Id: e4b3d035cb5d94fd4a3b2db17c21deb9
+      m_ProfileName: Development
+      m_Values:
+      - m_Id: 0f31ebab6012cc24299c1048c4a96c89
+        m_Value: 'https://gobbl-bucket.s3.ap-south-1.amazonaws.com/FoodFuryAddressables/Development/[BuildTarget]'
+      - m_Id: 1d6f3dfa40160cb48bdfebb917da429b
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 4842cdcd57f187f48bee6f9c094e9b0e
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 86e4fcc55d622304aaed994dee69afaf
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: f9750d74bc372f14f8a8eeb63db9e024
+        m_Value: 'ServerData/[BuildTarget]'
+    m_ProfileEntryNames:
+    - m_Id: 0f31ebab6012cc24299c1048c4a96c89
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 1d6f3dfa40160cb48bdfebb917da429b
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 4842cdcd57f187f48bee6f9c094e9b0e
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 86e4fcc55d622304aaed994dee69afaf
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: f9750d74bc372f14f8a8eeb63db9e024
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 1bce600360cbc2c4bb40cc6c962d4a39, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 2
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 4c8d2aa5c1fecb7418e8e9387d5dcbfe, type: 2}
+  - {fileID: 11400000, guid: ca2a4ac76c704e447b27028891c1813d, type: 2}
+  - {fileID: 11400000, guid: 7dc179d68da7ece4ab836fc56c1975ae, type: 2}
+  m_ActiveProfileId: e4b3d035cb5d94fd4a3b2db17c21deb9

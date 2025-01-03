@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts.meta
+guid: 90cebaa0afdacee48a8b5ea661f8a1a7
+========
+<<<<<<< HEAD
+guid: 69df2e28b58ace74ca0f8e7a4b460020
+>>>>>>>> mp-pre-merge:Assets/Missile/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts.meta
+=======
+guid: 210abd60aaa0ee84da2758060ecf99b1
+>>>>>>>> main:Assets/MetaMask/Samples/Main/Scripts.meta
+>>>>>>> mp-pre-merge
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

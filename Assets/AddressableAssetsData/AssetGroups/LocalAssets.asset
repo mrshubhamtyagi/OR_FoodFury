@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LocalAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: LocalAssets
+  m_GUID: 7741972917bda734dae0f5ef54f13a33
+  m_SerializeEntries:
+  - m_GUID: 0285e099e302647c7800bfa4035c8172
+    m_Address: Rio de Janeiro.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04e3242ba6ad1474dbdec7c82b96524c
+    m_Address: Friesland.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a449302f8bfe47969aa86aa340e744f
+    m_Address: Delhi.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f0bc66beb751544c9feb21f7617f38e
+    m_Address: Dubai.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5df6a468ee95c42a4a23e7ee3e166b0c
+    m_Address: Paris.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ea24ba19d07b4562a6dac0720a7124b
+    m_Address: London.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d3ccabcb16214c28ab1403973c1a3a1
+    m_Address: Istanbul.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f654261412e44198a9d3c1d292167be
+    m_Address: Cape Town.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96131442a96644d1ba2bf440c63f0bc3
+    m_Address: Manila.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bce64905a1cb74913bd1e8f955c3c94c
+    m_Address: Tokyo.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9db7d6ec3743499ab78e9c504b6ebad
+    m_Address: Venice.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7ca4222dc9154f34ae54488f26ac204
+    m_Address: Riyadh.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f192bd108642d45ae953b472177f2574
+    m_Address: Cairo.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdcb970d1e6254cf4ba20291e08f61e2
+    m_Address: New York.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2ab6fea2e8f9e7f4a84ba52baa05236e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bc6193676034e44478a753161ed57551, type: 2}
+    - {fileID: 11400000, guid: 5f9e830263185584888ff4b11ba3c7a0, type: 2}

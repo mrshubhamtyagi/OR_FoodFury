@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "title": "Deliver Orders InTime",
+      "level": 1,
+      "orderTime": 60,
+      "orderMinRange": 20,
+      "orderMaxRange": 50,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 380
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and Collect Emoji InTime",
+      "level": 2,
+      "orderTime": 60,
+      "orderMinRange": 50,
+      "orderMaxRange": 100,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 4
+        },
+        {
+          "objective": "CollectYellowEmoji",
+          "objectiveValue": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 350
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders InTime",
+      "level": 3,
+      "orderTime": 60,
+      "orderMinRange": 40,
+      "orderMaxRange": 70,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 4
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 370
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Order InTime with MinHealth",
+      "level": 4,
+      "orderTime": 60,
+      "orderMinRange": 100,
+      "orderMaxRange": 150,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 380
+        },
+        {
+          "condition": "MinHealth",
+          "conditionValue": 35
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and collect Emoji InTime with Min Health",
+      "level": 5,
+      "orderTime": 60,
+      "orderMinRange": 50,
+      "orderMaxRange": 150,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 5
+        },
+        {
+          "objective": "CollectGreenEmoji",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 450
+        },
+        {
+          "condition": "MinHealth",
+          "conditionValue": 35
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and collect Emoji InTime with Min Health",
+      "level": 6,
+      "orderTime": 60,
+      "orderMinRange": 50,
+      "orderMaxRange": 100,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 4
+        },
+        {
+          "objective": "CollectYellowEmoji",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 380
+        },
+        {
+          "condition": "MinHealth",
+          "conditionValue": 35
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders with Min Health",
+      "level": 7,
+      "orderTime": 60,
+      "orderMinRange": 10,
+      "orderMaxRange": 200,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "MinHealth",
+          "conditionValue": 37
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Order InTime with MinHealth",
+      "level": 8,
+      "orderTime": 60,
+      "orderMinRange": 200,
+      "orderMaxRange": 300,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 430
+        },
+        {
+          "condition": "MinHealth",
+          "conditionValue": 37
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and Collect Emoji InTime",
+      "level": 9,
+      "orderTime": 60,
+      "orderMinRange": 20,
+      "orderMaxRange": 80,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 4
+        },
+        {
+          "objective": "CollectYellowEmoji",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 342
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deliver Orders and Collect Emoji InTime",
+      "level": 10,
+      "orderTime": 60,
+      "orderMinRange": 50,
+      "orderMaxRange": 400,
+      "levelBoosterCost": 10,
+      "objectives": [
+        {
+          "objective": "DeliverOrders",
+          "objectiveValue": 4
+        },
+        {
+          "objective": "CollectGreenEmoji",
+          "objectiveValue": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "InTime",
+          "conditionValue": 425
+        }
+      ],
+      "boosterDetails": [
+        {
+          "type": 0,
+          "values": [
+            10,
+            20,
+            30
+          ]
+        }
+      ]
+    }
+  ]
+}

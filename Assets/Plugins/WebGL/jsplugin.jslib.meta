@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/WebGL/jsplugin.jslib.meta
+guid: 8b89ce88537f34cada827527e9da331b
+========
+guid: 5e2aa1bed00e15e4196f489a948357dd
+>>>>>>>> mp-pre-merge:Assets/Plugins/Android/FirebaseApp.androidlib.meta
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

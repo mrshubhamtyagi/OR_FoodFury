@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/Android/FirebaseApp.androidlib.meta
+guid: 5e2aa1bed00e15e4196f489a948357dd
+========
+guid: 4c50ca530e4124d90827c2561338a580
+folderAsset: yes
+>>>>>>>> mp-pre-merge:Assets/Plugins/Android/com.voxelbusters.essentialkit.androidlib.meta
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VehicleSound_Rival
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 1bf6ab891f5535c4f91c6e2279d5358b,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: vehicleSoundCollectionSO
+    value: 
+    objectReference: {fileID: 11400000, guid: 6caf8cb0990b6e942ad89e51f75eaf4f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[0].Hint
+    value: CrossFade From starting Engine Sound To Acceleration Sound Based on Speed
+      Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[0].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[1].Hint
+    value: Volume Change Of Starting Engine Sound Based On Speed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[1].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[2].Hint
+    value: Pitch Modulation Of Starting Engine Sound Based on Speed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[2].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[3].Hint
+    value: Volume Change Of Acceleration Sound Based On Speed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[3].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[4].Hint
+    value: Pitch Modulation Of Acceleration Sound Based on Speed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnSpeedChanged.Array.data[4].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[0].Hint
+    value: Volume Change Of Starting Engine Sound Based on MaxSpeed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[0].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[1].Hint
+    value: Volume Change Of Acceleration Sound Based on MaxSpeed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[1].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[2].Hint
+    value: Pitch Change Of Starting Engine Sound Based on MaxSpeed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[2].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[3].Hint
+    value: Pitch Change Of Acceleration Sound Based on MaxSpeed Variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnMaxSpeedChanged.Array.data[3].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnVehicleBroken.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnVehicleBroken.Array.data[0].Hint
+    value: Vehicle Sound  Change from Normal Vehicle Sound to Broken sound if Vehicle
+      Broken
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnVehicleBroken.Array.data[0].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnBeingPlayer.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnBeingPlayer.Array.data[0].Hint
+    value: Volume Change Of Starting Engine Sound Based on Whether he is player or
+      not
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnBeingPlayer.Array.data[0].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnBeingPlayer.Array.data[1].Hint
+    value: Volume Change Of Acceleration Sound Based on Whether he is player or not
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AudioModuleListThatIsAddedToOnBeingPlayer.Array.data[1].module
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: engineStarting
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: engineInBetween
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lowHealthAudioSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lowFuelAudioSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sfx
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].inSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].outSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: crashVolumeCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
